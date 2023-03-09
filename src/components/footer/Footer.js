@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../../images/logo.png'
 
 const Footer = (props) => {
     return (
@@ -8,24 +7,21 @@ const Footer = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="footer-image">
-                            <Link className="logo" to="/"><img src={Logo} alt="" /></Link>
+                        <div className="contact-info">
+                            <ul>
+                                <li><i className="fi flaticon-phone-call"></i> +16465934489</li>
+                                <li><i className="fi flaticon-mail"></i> henrywlam@gmail.com</li>
+                            </ul>
                         </div>
                     </div>
                     <div className="col-12">
                         <div className="link-widget">
                             <ul>
-                                <li><Link to="/"><i className="ti-facebook"></i></Link></li>
-                                <li><Link to="/"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link to="/"><i className="ti-linkedin"></i></Link></li>
-                                <li><Link to="/"><i className="ti-pinterest"></i></Link></li>
-                                <li><Link to="/"><i className="ti-vimeo-alt"></i></Link></li>
+                                <li><a href="https://www.facebook.com/henry.lam.1293/" target={"_blank"}><i className="ti-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/onthe__lam/" target={"_blank"}><i className="ti-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/henry-lam-94961b238/" target={"_blank"}><i className="ti-linkedin"></i></a></li>
+                                <li><a href="https://github.com/henrywl618/" target={"_blank"}><i className="ti-github"></i></a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div className="col-12">
-                        <div className="copyright">
-                            <p>© 2023. All rights reserved by themepresss.</p>
                         </div>
                     </div>
                 </div>

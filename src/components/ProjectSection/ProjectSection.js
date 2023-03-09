@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Projects from '../../api/project'
 import ProjectSingle from '../ProjectSingle/ProjectSingle';
+import "./ProjectSection.css";
 
 
 const ProjectSection = (props) => {
@@ -27,19 +28,21 @@ const ProjectSection = (props) => {
             <div className="container">
                 <div className="tp-section-title">
                     <span>Projects</span>
-                    <h2>My Latest Project</h2>
+                    <h2>My Latest Projects</h2>
                 </div>
                 <div className="tp-project-wrap">
                     <div className="row">
                         {Projects.slice(0, number).map((project, pro) => (
                             <div className="col col-xl-4 col-lg-6 col-sm-12 col-12" key={pro}>
                                 <div className="tp-project-item">
-                                    <div className="tp-project-img" onClick={() => handleClickOpen(project)}>
+                                    <a href={project.url} target="_blank">
+                                    <div className="tp-project-img">
                                         <img src={project.pImg} alt="" />
                                     </div>
+                                    </a>
                                     <div className="tp-project-content">
                                         <span>{project.subTitle}</span>
-                                        <h2 onClick={() => handleClickOpen(project)}>{project.title}</h2>
+                                            <a href={project.url} target="_blank"><h2>{project.title}</h2></a>
                                     </div>
                                 </div>
                             </div>

@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-import himg from '../../images/slider/right-img.png'
+import himg from '../../images/slider/img1.jpg'
 import { Link } from 'react-scroll'
+import { personalData } from '../../api/resumedata.js'
 
 const Hero =() => {
     return (
@@ -11,13 +12,13 @@ const Hero =() => {
                     <div className="col col-xs-7 col-lg-7">
                         <div className="tp-hero-section-text">
                             <div className="tp-hero-title">
-                                <h2>App & Software Developer</h2>
+                                <h2>Full Stack Software Developer</h2>
                             </div>
                             <div className="tp-hero-sub">
-                                <p>Robert Miller</p>
+                                <p>Henry Lam</p>
                             </div>
                             <div className="btns">
-                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn">Contact Us</Link>
+                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn">Contact Me</Link>
                             </div>
                         </div>
                     </div>
@@ -30,9 +31,9 @@ const Hero =() => {
             </div>
             <div className="social-link">
                 <ul>
-                    <li><NavLink to="/">Facebook</NavLink></li>
-                    <li><NavLink to="/">Twitter</NavLink></li>
-                    <li><NavLink to="/">Instagram</NavLink></li>
+                    <li><a href={personalData.linkedIn.url} target="_blank">LinkedIn</a></li>
+                    <li><a href={personalData.github.url} target="_blank">GitHub</a></li>
+                    <li><a href={personalData.instagram.url} target="_blank">Instagram</a></li>
                 </ul>
             </div>
             <div className="visible-text">

@@ -1,6 +1,6 @@
-import pimg1 from '../images/project/img-1.jpg'
-import pimg2 from '../images/project/img-2.jpg'
-import pimg3 from '../images/project/img-3.jpg'
+import pimg1 from '../images/project/RXCompare.PNG'
+import pimg2 from '../images/project/img-2.png'
+import pimg3 from '../images/project/valorantmatch.png'
 import pimg4 from '../images/project/img-4.jpg'
 import pimg5 from '../images/project/img-5.jpg'
 import pimg6 from '../images/project/img-6.jpg'
@@ -23,8 +23,9 @@ const Projects = [
        ps1img:ps1img1,
        psub1img1:psub1img1,
        psub1img2:psub1img2,
-       title:'Business Website Design',  
-       subTitle:'Web Design',   
+       title:'RXCompare',  
+       subTitle:'Discount Drug Prices',
+       url: 'https://rxcompare.up.railway.app/',   
     },
     {
        Id:'2',
@@ -32,8 +33,9 @@ const Projects = [
        ps1img:ps1img2,
        psub1img1:psub1img1,
        psub1img2:psub1img2,
-       title:'Food Website Design', 
-       subTitle:'Web Development',    
+       title:'Nutrition Tracker', 
+       subTitle:'Macro Tracker/Diet Plans',
+       url:'https://nutritiontracker.up.railway.app/'    
     },
     {
       Id:'3',
@@ -41,38 +43,10 @@ const Projects = [
       ps1img:ps1img3,
       psub1img1:psub1img1,
       psub1img2:psub1img2,
-      title:'Creative Website Design',  
-      subTitle:'Web Design',   
-   },
-   {
-      Id:'4',
-      pImg:pimg4,
-      ps1img:ps1img4,
-      psub1img1:psub1img1,
-      psub1img2:psub1img2,
-      title:'Marketing Website Design', 
-      subTitle:'App Design',    
-   },
-   {
-      Id:'4',
-      pImg:pimg5,
-      ps1img:ps1img5,
-      psub1img1:psub1img1,
-      psub1img2:psub1img2,
-      title:'Charity Website Design', 
-      subTitle:'Web Design',    
-   },
-   {
-      Id:'5',
-      pImg:pimg6,
-      ps1img:ps1img6,
-      psub1img1:psub1img1,
-      psub1img2:psub1img2,
-      title:'Ecommarce Website Design', 
-      subTitle:'Web App',    
-   },
-   
-    
+      title:'Valorant Match',  
+      subTitle:'Card Matching Game',
+      url:'https://valorantmatchgame.up.railway.app/',   
+   }
 ]
 
 export default Projects;
