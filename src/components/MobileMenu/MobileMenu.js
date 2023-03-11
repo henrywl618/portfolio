@@ -16,18 +16,13 @@ const menus = [
     },
     {
         id: 3,
-        title: 'Service',
-        link: 'service',
+        title: 'Projects',
+        link: 'project',
     },
     {
         id: 4,
-        title: 'Portfolio',
-        link: 'portfolio',
-    },
-    {
-        id: 5,
-        title: 'Blog',
-        link: 'blog',
+        title: 'Skills',
+        link: 'skills',
     },
     {
         id: 5,
