@@ -19,7 +19,7 @@ const Hero =() => {
                             </div>
                             <div className="btns">
                                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} offset={-95} className="theme-btn me-1">Contact Me</Link>
-                                <a href="https://drive.google.com/file/d/1lXmjeHoWf4ZHZDRgQOykht3CwC_qyQm0/view?usp=share_link/" target="_blank"className="theme-btn ms-1">Resume</a>
+                                <a href="https://drive.google.com/file/d/1_9HfW84lQUhQliCeKDBRV0i9thIitzzf/view?usp=sharing" target="_blank"className="theme-btn ms-1">Resume</a>
                             </div>
                         </div>
                     </div>
